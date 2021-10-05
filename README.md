@@ -396,31 +396,16 @@ Key Sections:
     - [File names separators](#file-names-separators)
     - [Symbols and file names](#symbols-and-file-names)
       - [Symbol Name Examples](#symbol-name-examples)
-        - [`app.component.ts`](#appcomponentts)
-        - [`trucks.component.ts`](#truckscomponentts)
-        - [`truck-list.component.ts`](#truck-listcomponentts)
-        - [`truck-detail.component.ts`](#truck-detailcomponentts)
-        - [`validation.directive.ts`](#validationdirectivets)
-        - [`home.module.ts`](#homemodulets)
-        - [`init-cap.pipe.ts`](#init-cappipets)
-        - [`user-profile.service.ts`](#user-profileservicets)
     - [Service Names](#service-names)
       - [Service Names Examples](#service-names-examples)
-        - [`truck-data.service.ts`](#truck-dataservicets)
-        - [`credit.service.ts`](#creditservicets)
     - [Component selectors](#component-selectors)
     - [Directive Selectors](#directive-selectors)
     - [Pipe Names](#pipe-names)
       - [Pipes Names Examples](#pipes-names-examples)
-        - [`ellipsis.pipe.ts`](#ellipsispipets)
-        - [`init-caps.pipe.ts`](#init-capspipets)
     - [Unit Test File Names](#unit-test-file-names)
     - [_End-to-End_ (E2E) Test File Names](#end-to-end-e2e-test-file-names)
     - [Angular _NgModule_ Names](#angular-ngmodule-names)
       - [Angular _NgModule_ Names Examples](#angular-ngmodule-names-examples)
-        - [`app.module.ts`](#appmodulets)
-        - [`trucks.module.ts`](#trucksmodulets)
-        - [`app-routing.module.ts`](#app-routingmodulets)
   - [Bootstrapping](#bootstrapping)
   - [Application structure and NgModules](#application-structure-and-ngmodules)
     - [_LIFT_](#lift)
@@ -579,56 +564,70 @@ and reference assets of different types.
 
 ---
 
-##### `app.component.ts`
+`app.component.ts`
 
 ```ts
 @Component({ ... })
 export class AppComponent { }
 ```
 
-##### `trucks.component.ts`
+---
+
+`trucks.component.ts`
 
 ```ts
 @Component({ ... })
 export class TrucksComponent { }
 ```
 
-##### `truck-list.component.ts`
+---
+
+`truck-list.component.ts`
 
 ```ts
 @Component({ ... })
 export class TruckListComponent { }
 ```
 
-##### `truck-detail.component.ts`
+---
+
+`truck-detail.component.ts`
 
 ```ts
 @Component({ ... })
 export class TruckDetailComponent { }
 ```
 
-##### `validation.directive.ts`
+---
+
+`validation.directive.ts`
 
 ```ts
 @Directive({ ... })
 export class ValidationDirective { }
 ```
 
-##### `home.module.ts`
+---
+
+`home.module.ts`
 
 ```ts
 @NgModule({ ... })
 export class HomeModule
 ```
 
-##### `init-cap.pipe.ts`
+---
+
+`init-cap.pipe.ts`
 
 ```ts
 @Pipe({ name: 'initCap' })
 export class InitCapPipe implements PipeTransform { }
 ```
 
-##### `user-profile.service.ts`
+---
+
+`user-profile.service.ts`
 
 ```ts
 @Injectable()
@@ -648,14 +647,16 @@ export class UserProfileService { }
 
 ---
 
-##### `truck-data.service.ts`
+`truck-data.service.ts`
 
 ```ts
 @Injectable()
 export class TruckDataService { }
 ```
 
-##### `credit.service.ts`
+---
+
+`credit.service.ts`
 
 ```ts
 @Injectable()
@@ -746,14 +747,16 @@ export class ValidateDirective {}
 
 ---
 
-##### `ellipsis.pipe.ts`
+`ellipsis.pipe.ts`
 
 ```ts
 @Pipe({ name: 'ellipsis' })
 export class EllipsisPipe implements PipeTransform { }
 ```
 
-##### `init-caps.pipe.ts`
+---
+
+`init-caps.pipe.ts`
 
 ```ts
 @Pipe({ name: 'initCaps' })
@@ -796,21 +799,25 @@ export class InitCapsPipe implements PipeTransform { }
 
 ---
 
-##### `app.module.ts`
+`app.module.ts`
 
 ```ts
 @NgModule({ ... })
 export class AppModule { }
 ```
 
-##### `trucks.module.ts`
+---
+
+`trucks.module.ts`
 
 ```ts
 @NgModule({ ... })
 export class TrucksModule { }
 ```
 
-##### `app-routing.module.ts`
+---
+
+`app-routing.module.ts`
 
 ```ts
 @NgModule({ ... })
