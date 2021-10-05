@@ -381,6 +381,11 @@ class X implements FooBar {
 
 > Use `==` when typeof data is not important.
 
+---
+
+---
+
+
 # Angular coding style guide
 
 ---
